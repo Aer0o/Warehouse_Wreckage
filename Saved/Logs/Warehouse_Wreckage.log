@@ -1588,3 +1588,53 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2023.06.12-15.38.10:764][136]LogShaderCompilers: Display: FShaderCompileThreadRunnable::WriteNewTasks() took too long (0.869 seconds, threshold is 0.300 s), will parallelize next time.
 [2023.06.12-15.38.13:246][252]LogSlate: Window 'Message Log' being destroyed
 [2023.06.12-15.38.13:256][252]LogSlate: Window 'Message Log' being destroyed
+[2023.06.12-15.42.17:428][ 36]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.06.12-15.42.17:438][ 36]LogContentBrowser: Creating deferred item: NewFolder
+[2023.06.12-15.42.17:489][ 37]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.06.12-15.42.19:774][191]LogContentBrowser: Attempting asset rename: NewFolder -> Maps
+[2023.06.12-15.42.19:775][191]LogContentBrowser: End creating deferred item NewFolder
+[2023.06.12-15.42.30:532][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.06.12-15.42.30:895][911]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.12-15.42.33:262][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.06.12-15.42.33:300][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.06.12-15.42.36:737][ 73]LogSlate: Window 'Save Content' being destroyed
+[2023.06.12-15.42.36:746][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.12-15.42.36:774][ 73]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.12-15.42.36:864][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Minimal_Default" FILE="D:/UE Projects/Warehouse_Wreckage/Content/Maps/Minimal_Default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.06.12-15.42.36:927][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.06.12-15.42.37:055][ 73]LogSavePackage: Moving output files for package: /Game/Maps/Minimal_Default
+[2023.06.12-15.42.37:055][ 73]LogSavePackage: Moving 'D:/UE Projects/Warehouse_Wreckage/Saved/Minimal_Default4E1B276F467BFA7E3009718E6B35978D.tmp' to 'D:/UE Projects/Warehouse_Wreckage/Content/Maps/Minimal_Default.umap'
+[2023.06.12-15.42.37:092][ 73]LogFileHelpers: Saving map 'Minimal_Default' took 0.319
+[2023.06.12-15.42.37:099][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave took 353 ms (total: 3.25 sec)
+[2023.06.12-15.42.37:116][ 73]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Minimal_Default.Minimal_Default
+[2023.06.12-15.42.37:116][ 73]Cmd: MAP LOAD FILE="D:/UE Projects/Warehouse_Wreckage/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.06.12-15.42.37:116][ 73]LightingResults: New page: Lighting Build
+[2023.06.12-15.42.37:116][ 73]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2023.06.12-15.42.37:119][ 73]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.06.12-15.42.37:119][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.12-15.42.37:119][ 73]MapCheck: New page: Map Check
+[2023.06.12-15.42.37:119][ 73]LightingResults: New page: Lighting Build
+[2023.06.12-15.42.37:127][ 73]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.12-15.42.37:129][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.06.12-15.42.37:168][ 73]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.06.12-15.42.37:168][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.12-15.42.37:179][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.06.12-15.42.37:188][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.06.12-15.42.37:194][ 73]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default'.
+[2023.06.12-15.42.37:194][ 73]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.12-15.42.37:194][ 73]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.12-15.42.37:194][ 73]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.06.12-15.42.37:203][ 73]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.06.12-15.42.37:214][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.06.12-15.42.37:217][ 73]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.06.12-15.42.37:217][ 73]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.134ms to complete.
+[2023.06.12-15.42.37:217][ 73]LogFileHelpers: Loading map 'Minimal_Default' took 0.101
+[2023.06.12-15.42.37:223][ 73]AssetCheck: New page: Asset Save: Minimal_Default
+[2023.06.12-15.42.37:223][ 73]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Minimal_Default.Minimal_Default
+[2023.06.12-15.42.37:231][ 73]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.12-15.42.37:232][ 73]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.12-15.42.37:232][ 73]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.12-15.42.37:233][ 73]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.12-15.42.37:233][ 73]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.12-15.42.37:234][ 73]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.12-15.42.37:234][ 73]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
