@@ -6,7 +6,11 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/UE Projects/Warehouse_Wreckage/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
-				"D:/UE Projects/Warehouse_Wreckage/Content/Maps/Minimal_Default.umap"
+				"D:/UE Projects/Warehouse_Wreckage/Content/Maps/Minimal_Default.umap",
+				"D:/UE Projects/Warehouse_Wreckage/Content/BP_Projectile.uasset",
+				"D:/UE Projects/Warehouse_Wreckage/Content/Maps/Main.umap",
+				"D:/UE Projects/Warehouse_Wreckage/Content/IndustryPropsPack6/Meshes/SM_Barrel01.uasset",
+				"D:/UE Projects/Warehouse_Wreckage/Content/BP_Barrel.uasset"
 			]
 		}
 	]
